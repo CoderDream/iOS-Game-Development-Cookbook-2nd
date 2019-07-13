@@ -1,0 +1,203 @@
+- 
+
+## Table of Contents
+- Chapter 1 Laying Out a Game
+  - Laying Out Your Engine
+  - Creating an Inheritance-Based Game Layout
+  - Creating a Component-Based Game Layout
+  - Calculating Delta Times
+  - Detecting When the User Enters and Exits Your Game
+  - Updating Based on a Timer
+  - Updating Based on When the Screen Updates
+  - Pausing a Game
+  - Calculating Time Elapsed Since the Game Start
+  - Working with Closures
+  - Writing a Method That Calls a Closure
+  - Working with Operation Queues
+  - Performing a Task in the Future
+  - Making Operations Depend on Each Other
+  - Filtering an Array with Closures
+  - Loading New Assets During Gameplay
+  - Adding Unit Tests to Your Game
+  - 2D Grids
+- Chapter 2 Views and Menus
+  - Working with Storyboards
+  - Creating View Controllers
+  - Using Segues to Move Between Screens
+  - Using Constraints to Lay Out Views
+  - Adding Images to Your Project
+  - Slicing Images for Use in Buttons
+  - Using UI Dynamics to Make Animated Views
+  - Moving an Image with Core Animation
+  - Rotating an Image
+  - Animating a Popping Effect on a View
+  - Theming UI Elements with UIAppearance
+  - Rotating a UIView in 3D
+  - Overlaying Menus on Top of Game Content
+  - Designing Effective Game Menus
+- Chapter 3 Input
+  - Detecting When a View Is Touched
+  - Responding to Tap Gestures
+  - Dragging an Image Around the Screen
+  - Detecting Rotation Gestures
+  - Detecting Pinching Gestures
+  - Creating Custom Gestures
+  - Receiving Touches in Custom Areas of a View
+  - Detecting Shakes
+  - Detecting Device Tilt
+  - Getting the Compass Heading
+  - Accessing the User’s Location
+  - Calculating the User’s Speed
+  - Pinpointing the User’s Proximity to Landmarks
+  - Receiving Notifications When the User Changes Location
+  - Looking Up GPS Coordinates for a Street Address
+  - Looking Up Street Addresses from the User’s Location
+  - Using the Device as a Steering Wheel
+  - Detecting Magnets
+  - Utilizing Inputs to Improve Game Design
+- Chapter 4 Sound
+- Playing Sound with AVAudioPlayer
+- Recording Sound with AVAudioRecorder
+- Working with Multiple Audio Players
+- Cross-Fading Between Tracks
+- Synthesizing Speech
+- Getting Information About What the Music App Is Playing
+- Detecting When the Currently Playing Track Changes
+- Controlling Music Playback
+- Allowing the User to Select Music
+- Cooperating with Other Applications’ Audio
+- Determining How to Best Use Sound in Your Game Design
+- Chapter 5 Data Storage
+- Saving the State of Your Game
+- Storing High Scores Locally
+- Using iCloud to Save Games
+- Using the iCloud Key-Value Store
+- Loading Structured Information
+- Deciding When to Use Files or a Database
+- Managing a Collection of Assets
+- Storing Information in NSUserDefaults
+- Implementing the Best Data Storage Strategy
+- In-Game Currency
+- Chapter 6 2D Graphics and Sprite Kit
+- Getting Familiar with 2D Math
+- Creating a Sprite Kit View
+- Creating a Scene
+- Adding a Sprite
+- Adding a Text Sprite
+- Determining Available Fonts
+- Including Custom Fonts
+- Transitioning Between Scenes
+- Moving Sprites and Labels Around
+- Adding a Texture Sprite
+- Creating Texture Atlases
+- Using Shape Nodes
+- Using Blending Modes
+- Using Image Effects to Change the Way That Sprites Are Drawn
+- Using Bézier Paths
+- Creating Smoke, Fire, and Other Particle Effects
+- Shaking the Screen
+- Animating a Sprite
+- Parallax Scrolling
+- Creating Images Using Noise
+- Chapter 7 Physics
+- Reviewing Physics Terms and Definitions
+- Adding Physics to Sprites
+- Creating Static and Dynamic Objects
+- Defining Collider Shapes
+- Setting Velocities
+- Working with Mass, Size, and Density
+- Creating Walls in Your Scene
+- Controlling Gravity
+- Keeping Objects from Falling Over
+- Controlling Time in Your Physics Simulation
+- Detecting Collisions
+- Finding Objects
+- Working with Joints
+- Working with Forces
+- Adding Thrusters to Objects
+- Creating Explosions
+- Using Device Orientation to Control Gravity
+- Dragging Objects Around
+- Creating a Car
+- Chapter 8 3D Graphics
+- Working with 3D Math
+- Creating a GLKit Context
+- Drawing a Square Using OpenGL
+- Loading a Texture
+- Drawing a Cube
+- Rotating a Cube
+- Moving the Camera in 3D Space
+- Chapter 9 Intermediate 3D Graphics
+- Loading a Mesh
+- Parenting Objects
+- Animating a Mesh
+- Batching Draw Calls
+- Creating a Movable Camera Object
+- Chapter 10 Advanced 3D Graphics
+- Understanding Shaders
+- Working with Materials
+- Texturing with Shaders
+- Lighting a Scene
+- Using Normal Mapping
+- Making Objects Transparent
+- Adding Specular Highlights
+- Adding Toon Shading
+- Chapter 11 Scene Kit
+- Setting Up for Scene Kit
+- Creating a Scene Kit Scene
+- Showing a 3D Object
+- Working with Scene Kit Cameras
+- Creating Lights
+- Animating Objects
+- Working with Text Nodes
+- Customizing Materials
+- Texturing Objects
+- Normal Mapping
+- Constraining Objects
+- Loading COLLADA Files
+- Using 3D Physics
+- Adding Reflections
+- Hit-Testing the Scene
+- Chapter 12 Artificial Intelligence and Behavior
+- Making Vector Math Nicer in Swift
+- Making an Object Move Toward a Position
+- Making Things Follow a Path
+- Making an Object Intercept a Moving Target
+- Making an Object Flee When It’s in Trouble
+- Making an Object Decide on a Target
+- Making an Object Steer Toward a Point
+- Making an Object Know Where to Take Cover
+- Calculating a Path for an Object to Take
+- Finding the Next Best Move for a Puzzle Game
+- Determining If an Object Can See Another Object
+- Using AI to Enhance Your Game Design
+- Chapter 13 Networking and Social Media
+- Using Game Center
+- Getting Information About the Logged-in Player
+- Getting Information About Other Players
+- Making Leaderboards and Challenges with Game Center
+- Finding People to Play with Using Game Center
+- Creating, Destroying, and Synchronizing Objects on the Network
+- Interpolating Object State
+- Handling When a Player Disconnects and Rejoins
+- Making Turn-Based Gameplay Work with Game Kit
+- Sharing Text and Images to Social Media Sites
+- Storing Saved Games in Game Center
+- Implementing iOS Networking Effectively
+- Implementing Social Networks Effectively
+- Chapter 14 Game Controllers and External Screens
+- Detecting Controllers
+- Getting Input from a Game Controller
+- Showing Content via AirPlay
+- Using External Screens
+- Designing Effective Graphics for Different Screens
+- Dragging and Dropping
+- Chapter 15 Performance and Debugging
+- Improving Your Frame Rate
+- Making Levels Load Quickly
+- Dealing with Low-Memory Issues
+- Tracking Down a Crash
+- Working with Compressed Textures
+- Working with Watchpoints
+- Logging Effectively
+- Creating Breakpoints That Use Speech
