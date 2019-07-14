@@ -59,12 +59,14 @@ class ViewController: UIViewController {
         
         // BEGIN run_after_delay
         // Place a bomb, but make it explode in 10 seconds
+        // 放一个炸弹，让它在 10 秒钟后爆炸
         placeBomb()
         
         let deadline = DispatchTime.now() + 10
-        
+        // 1.13 延迟执行
         DispatchQueue.main.asyncAfter(deadline: deadline, execute: {
             // Time's up. Kaboom.
+            // 时间到，嘣
             self.explodeBomb()
         })
         
