@@ -86,6 +86,8 @@ class ViewController: UIViewController {
         
         // secondOperation will not run until firstOperation and
         // thirdOperation have finished
+        // 1.14 串行执行
+        // secondOperation 必须等 firstOperation 和 thirdOperation 完成之后才执行
         secondOperation.addDependency(firstOperation)
         secondOperation.addDependency(thirdOperation)
         
