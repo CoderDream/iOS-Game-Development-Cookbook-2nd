@@ -23,6 +23,8 @@ class ViewController: UIViewController {
         // might take place over several frames
         
         // Call the completion handler, if it exists
+        // 执行运动，使对象移动到终点，这个过程可能需要几个动画帧的时间
+        // 当闭包参数不为空时，调用闭包进行后续处理
         completion?()
     }
 
@@ -67,6 +69,7 @@ class ViewController: UIViewController {
         let destination = CGPoint(x: 5, y: 3)
         
         // Call the function and provide the closure as a parameter
+        // 调用方法，并提供一个闭包参数
         moveToPosition(position: destination) {
             print("Arrived!")
         }
