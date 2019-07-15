@@ -27,7 +27,7 @@ class ViewController: UIViewController {
         // 定时器函数设置为 ease out，使动画在快结束的时候速度自然变慢。
         keyframeAnimation.timingFunction =
             CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeOut)
-        
+        // key 用于唯一标识一个动画对象，以便此后可以通过key来访问它
         self.poppingView.layer.add(keyframeAnimation, forKey: "pop")
         // END pop        
     }
