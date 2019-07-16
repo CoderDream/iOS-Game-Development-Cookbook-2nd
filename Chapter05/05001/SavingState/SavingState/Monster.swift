@@ -9,7 +9,7 @@
 import UIKit
 
 // BEGIN coding
-class Monster: Codable {
+class Monster : Codable {
     
     // Game data
     var hitPoints = 0
