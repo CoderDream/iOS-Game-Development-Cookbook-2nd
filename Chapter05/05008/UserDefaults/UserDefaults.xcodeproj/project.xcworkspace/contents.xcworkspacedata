@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:AssetManagement.xcodeproj">
+      location = "self:UserDefaults.xcodeproj">
    </FileRef>
 </Workspace>
