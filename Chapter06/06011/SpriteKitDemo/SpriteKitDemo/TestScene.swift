@@ -20,7 +20,7 @@ class TestScene: SKScene {
     }
     
     func createSceneContents() {
-        self.backgroundColor = SKColor.black
+        self.backgroundColor = SKColor.white //SKColor.black
         // fill: Scene 将始终填充整个 SKView
         // aspectFill: 以缩放的方式填充，并保持 Scene 原始的纵横比。这样会导致 Scene 的某些部分被截去。
         // aspectFit: 以缩放的方式填充，并始终保持在 SKView 内部，这样会导致一些空边出现，例如在上下边距出现一些空白区域。
@@ -170,11 +170,20 @@ class TestScene: SKScene {
         }
         
         // BEGIN texture_sprite
-        let imageSprite = SKSpriteNode(imageNamed: "Spaceship")
-        imageSprite.position = CGPoint(x: 200, y: 600)
-        // END texture_sprite
+//        let imageSprite = SKSpriteNode(imageNamed: "Spaceship")
+//        imageSprite.position = CGPoint(x: 200, y: 600)
+//        // END texture_sprite
+//
+//        myScene.addChild(imageSprite)
         
-        myScene.addChild(imageSprite)
+        //利用lazy关键字可以让实例化在第一次使用时才执行
+        // Swift - 使用atlas图集实现动画效果（SpriteKit游戏开发）
+        // http://www.hangge.com/blog/cache/detail_732.html
+        let cat = Cat()
+        
+        cat.position = CGPoint(x: 210, y: 350);
+        cat.zPosition = 20
+        myScene.addChild(cat)
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
